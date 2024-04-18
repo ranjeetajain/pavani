@@ -5,7 +5,7 @@ pipeline {
 				steps {
 					script {
 						sh '''
-						cp -r /var/lib/jenkins/pavani/3-pipeline-build/1-maven/1-generic-build/* ${WORKSPACE}/
+						cp -r /var/lib/jenkins/pavani/pavani/3-pipeline-build/1-maven/1-generic-build/* ${WORKSPACE}/
 						'''
 						}
 					}
